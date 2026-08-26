@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="panel-kiri">
+        <p>web login</p>
+    </div>
+     <div class="panel-kanan">
+        <div class="container-login">
+            <h2>Login</h2>
+            <p>Silakan masuk ke akun Anda untuk melanjutkan</p>
+        </div>
+        <div>
+            <form action="login.php" method="POST">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div>
+            <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+        </div>
+    </div>
+    
+   </div>
+</body>
+</html>
