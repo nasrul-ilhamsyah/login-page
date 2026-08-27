@@ -31,3 +31,55 @@ body{
     justify-content: center;
     
 }
+.kananform{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 20px;
+}
+
+.kanan-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+.form-input{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1 solid ;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2;
+}
+.sumit{
+    width: 100%;
+    padding: 12px;
+    background: #fefeff;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2, box-shadow 0.2s;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0, 0.3);
+    
+}
+.sumit:hover{
+    background-color: #1b26f5;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0, 0.4);
+}
